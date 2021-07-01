@@ -1,7 +1,11 @@
 # Local .terraform directories
 **/.terraform/*
+<<<<<<< HEAD
 *.hcl
 .DS_Store
+=======
+
+>>>>>>> e22efa16ac8034de64e3655d3857da89b7270468
 # .tfstate files
 *.tfstate
 *.tfstate.*
