@@ -35,3 +35,8 @@ resource "aws_iam_role" "secrets_role" {
     ]
   })
 }
+
+resource "aws_iam_instance_profile" "secrets_profile" {
+  name = "secrets_profile"
+  role = "${aws_iam_role.secrets_role.name}"
+}
